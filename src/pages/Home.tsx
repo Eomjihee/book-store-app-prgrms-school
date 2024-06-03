@@ -1,5 +1,6 @@
 import Button from "../components/common/Button"
 import Title from "../components/common/Title"
+import InputText from './../components/common/InputText';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         제목 테스트3
       </Title>
       <Button size="large" scheme="normal" disabled={false} isLoading={false} >버튼 테스트</Button>
+      <InputText placeholder="여기에 입력하세요" />
       <div>home body</div>
     </>
   )
